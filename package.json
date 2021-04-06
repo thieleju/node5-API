@@ -1,0 +1,31 @@
+{
+  "name": "node5-api",
+  "version": "1.0.0",
+  "description": "node5 API",
+  "main": "app.js",
+  "dependencies": {
+    "coinbase-pro-node": "^3.0.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thieleju/node5-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thieleju/node5-API/issues"
+  },
+  "homepage": "https://github.com/thieleju/node5-API#readme"
+}
