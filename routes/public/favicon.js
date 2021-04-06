@@ -5,7 +5,7 @@ var router = express.Router({ mergeParams: true })
 
 router.get("/", (req, res) => {
   try {
-    var ico = fs.readFileSync("./public/favicon.ico")
+    var ico = fs.readFileSync("assets/dsgvo.html")
     res.send(ico)
   } catch (error) {
     res.status(400).json(error)

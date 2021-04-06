@@ -1,1 +1,1 @@
-module.exports = "home,dashboard,portfolio,settings"
+module.exports = "start,dashboard,portfolio,settings"

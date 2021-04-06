@@ -29,7 +29,7 @@ app
   .use("/auth", require("./routes/authentication"))
   .use("/coinbase", require("./routes/coinbase"))
   .use("/public", require("./routes/public"))
-  .use("/data", require("./routes/data"))
+  .use("/navigation", require("./routes/navigation"))
   .use("/coinbase", require("./routes/coinbase"))
 
   // catch every other route

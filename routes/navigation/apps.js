@@ -20,7 +20,7 @@ router.get("/", verifyToken, async (req, res) => {
         promises.push(
           executeSQLQuery(
             req.decoded.username,
-            "select seq, title, component, icon from apps as a where a.component = ?;",
+            "select seq, title, name, icon from apps as a where a.name = ?;",
             [comp]
           )
         )
@@ -41,6 +41,7 @@ router.get("/", verifyToken, async (req, res) => {
       [req.decoded.username, "apps"]
     )
 
+    console.log(data)
     // apps which get sent back to client
     let apps
     // check if apps setting exists

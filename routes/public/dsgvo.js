@@ -5,7 +5,7 @@ var router = express.Router({ mergeParams: true })
 
 router.get("/", (req, res) => {
   try {
-    var dsgvo = fs.readFileSync("./src/assets/dsgvo.html")
+    var dsgvo = fs.readFileSync("assets/dsgvo.html")
     res.send(dsgvo)
   } catch (error) {
     res.status(400).json(error)
